@@ -1,0 +1,8 @@
+{
+  "suite": "recheck",
+  "seeds": 128,
+  "decisions": 72,
+  "workers": 10,
+  "seconds": 4.616334874997847,
+  "tasks": 2304
+}

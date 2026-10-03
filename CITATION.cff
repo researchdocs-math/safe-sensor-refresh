@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this experiment package when using its implementation or results."
+type: software
+title: "Safe Sensor Refresh for Edge Agents: Reproducible Experiments"
+version: 1.0.0
+date-released: 2026-10-03
+license: MIT
+authors:
+  - name: "Anonymous authors"
+keywords:
+  - sensor scheduling
+  - runtime assurance
+  - edge agents
+  - reproducible simulation

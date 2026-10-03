@@ -1,0 +1,36 @@
+{
+  "main": {
+    "seeds": 512,
+    "decisions": 72
+  },
+  "deadline": {
+    "seeds": 128,
+    "decisions": 72
+  },
+  "persistent": {
+    "seeds": 256,
+    "decisions": 72
+  },
+  "stress": {
+    "seeds": 256,
+    "decisions": 72
+  },
+  "recheck": {
+    "seeds": 128,
+    "decisions": 72
+  },
+  "local_agent": {
+    "seeds": 4,
+    "decisions": 36
+  },
+  "scaling_cases": 60,
+  "bootstrap_replicates": 10000,
+  "seed_offsets": {
+    "main": 10000,
+    "deadline": 20000,
+    "stress": 30000,
+    "persistent": 40000,
+    "local_agent": 51000,
+    "recheck": 70000
+  }
+}

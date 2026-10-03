@@ -1,0 +1,8 @@
+{
+  "suite": "deadline",
+  "seeds": 128,
+  "decisions": 72,
+  "workers": 10,
+  "seconds": 14.45462391601177,
+  "tasks": 7680
+}

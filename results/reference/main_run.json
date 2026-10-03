@@ -1,0 +1,8 @@
+{
+  "suite": "main",
+  "seeds": 512,
+  "decisions": 72,
+  "workers": 10,
+  "seconds": 17.101293415995315,
+  "tasks": 9216
+}

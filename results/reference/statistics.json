@@ -1,0 +1,137 @@
+{
+  "main_episodes": 9216,
+  "comparisons": [
+    {
+      "domain": "water",
+      "comparator": "trigger_all",
+      "accept_difference_pp": -0.059678819444444337,
+      "accept_ci": [
+        -0.09765624999999986,
+        -0.024414062499999944
+      ],
+      "cost_reduction_pct": 69.47559274755928,
+      "cost_reduction_ci": [
+        68.92060994662893,
+        70.0277860754795
+      ]
+    },
+    {
+      "domain": "water",
+      "comparator": "greedy",
+      "accept_difference_pp": -0.008138020833333315,
+      "accept_ci": [
+        -0.02712673611111105,
+        0.008138020833333315
+      ],
+      "cost_reduction_pct": 7.286283148352113,
+      "cost_reduction_ci": [
+        6.448693699396002,
+        8.11974604296006
+      ]
+    },
+    {
+      "domain": "water",
+      "comparator": "age",
+      "accept_difference_pp": -0.0027126736111111327,
+      "accept_ci": [
+        -0.04340277777777771,
+        0.035264756944444364
+      ],
+      "cost_reduction_pct": 49.14372022772162,
+      "cost_reduction_ci": [
+        48.35856261867487,
+        49.934931220395725
+      ]
+    },
+    {
+      "domain": "water",
+      "comparator": "no_refresh",
+      "accept_difference_pp": 17.835828993055557,
+      "accept_ci": [
+        17.507595486111114,
+        18.155924479166664
+      ]
+    },
+    {
+      "domain": "thermal",
+      "comparator": "trigger_all",
+      "accept_difference_pp": -0.04069010416666649,
+      "accept_ci": [
+        -0.09765624999999972,
+        0.016276041666666713
+      ],
+      "cost_reduction_pct": 59.04719971821064,
+      "cost_reduction_ci": [
+        58.35046321623938,
+        59.729393378331295
+      ]
+    },
+    {
+      "domain": "thermal",
+      "comparator": "greedy",
+      "accept_difference_pp": 0.018988715277777762,
+      "accept_ci": [
+        -0.01356336805555558,
+        0.05154079861111108
+      ],
+      "cost_reduction_pct": 3.1689847588906472,
+      "cost_reduction_ci": [
+        2.424001970595679,
+        3.901820938785203
+      ]
+    },
+    {
+      "domain": "thermal",
+      "comparator": "age",
+      "accept_difference_pp": 0.005425347222222293,
+      "accept_ci": [
+        -0.05154079861111091,
+        0.06239149305555547
+      ],
+      "cost_reduction_pct": 37.120064899945916,
+      "cost_reduction_ci": [
+        36.173504817194335,
+        38.07922383949556
+      ]
+    },
+    {
+      "domain": "thermal",
+      "comparator": "no_refresh",
+      "accept_difference_pp": 23.581271701388893,
+      "accept_ci": [
+        23.174370659722225,
+        23.977322048611114
+      ]
+    }
+  ],
+  "deadline_episodes": 7680,
+  "persistent_episodes": 4608,
+  "water_persistent_point_failure": {
+    "k": 240,
+    "n": 256,
+    "ci": [
+      0.9004864688995705,
+      0.9638572392101775
+    ]
+  },
+  "thermal_persistent_point_failure": {
+    "k": 253,
+    "n": 256,
+    "ci": [
+      0.9661367173637085,
+      0.9975767612461274
+    ]
+  },
+  "stress_episodes": 7680,
+  "recheck_episodes": 2304,
+  "local_agent_episodes": 24,
+  "zero_failures_upper95_main_regime": 0.005833955600556218,
+  "local_inference": {
+    "calls": 864,
+    "valid": 864,
+    "seconds_median": 0.38042070850497056,
+    "seconds_p95": 0.39455043754714963,
+    "peak_memory_gb_max": 1.549062478,
+    "total_seconds": 329.5059882145139
+  }
+}

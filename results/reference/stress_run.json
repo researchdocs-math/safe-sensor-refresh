@@ -1,0 +1,8 @@
+{
+  "suite": "stress",
+  "seeds": 256,
+  "decisions": 72,
+  "workers": 10,
+  "seconds": 16.441168124991236,
+  "tasks": 7680
+}

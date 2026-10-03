@@ -1,0 +1,8 @@
+{
+  "suite": "persistent",
+  "seeds": 256,
+  "decisions": 72,
+  "workers": 10,
+  "seconds": 8.860970874986378,
+  "tasks": 4608
+}
